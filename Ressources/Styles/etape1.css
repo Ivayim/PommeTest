@@ -10,6 +10,7 @@ div#conteneur
 	width: 770px ;
 	margin: 0 auto ;
 	text-align: left ;
+	border: 2px solid #ab4;
 }
 
 h1#header
@@ -21,7 +22,9 @@ h1#header
 	background-color:white;
 	display: flex;
 	justify-content: flex-end;
+	margin-top: 0;
 }
+
 h1 a
 {
 	background-image: url("/Ressources/Images/title.gif");
@@ -29,7 +32,8 @@ h1 a
 	width: 397px;
 	height: 69px;
 }
-h1 a span
+
+h1 a span /* Cacher le texte du lien derrière l'image */
 {
 	clip-path: inset(100%);
 	clip: rect(1px, 1px, 1px, 1px);
@@ -48,4 +52,9 @@ pre
 * html pre
 {
 	width: 636px ;
+}
+
+div#contenu
+{
+	background-image: url("/Ressources/Images/bg_page.gif");
 }

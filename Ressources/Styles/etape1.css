@@ -15,6 +15,23 @@ div#conteneur
 h1#header
 {
 	height: 258px ;
+    background-image: url("/ressources/images/apple.jpg");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-color:white;
+	display: flex;
+	justify-content: flex-end;
+}
+h1 a
+{
+	background-image: url("/Ressources/Images/title.gif");
+	background-repeat: no-repeat;
+	width: 397px;
+	height: 67px;
+}
+h1 a span
+{
+	text-align: right;
 }
 	
 pre

@@ -23,6 +23,7 @@ h1#header
 	display: flex;
 	justify-content: flex-end;
 	margin-top: 0;
+	margin-bottom: 0;
 }
 
 h1 a
@@ -45,19 +46,20 @@ h1 a span /* Cacher le texte du lien derrière l'image */
 }
 nav
 {
+	margin:0;
 	display: flex;
 	align-content: space-around;
 }
 
-#menu ul
+ul#menu
 {
-	margin: 0;
+	padding-left: 0px;
+	margin-top: 0px;
 }
 #menu li
 {
 	background-image: url("/Ressources/Images/bg_menu.gif");
 	display: inline-flex;
-	
 }
 	
 pre

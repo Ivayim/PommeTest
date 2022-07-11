@@ -127,3 +127,7 @@ div#contenu p
 	text-align: justify;
 	text-justify: inter-word;
 }
+#contenu p:first-child
+{
+	text-indent: 30px;
+}

@@ -141,18 +141,31 @@ pre
 	color:black;
 }
 
-#contenu a:link {
+#contenu a:link 
+{
 	text-decoration: none;
 }
   
-#contenu a:visited {
+#contenu a:visited 
+{
 	text-decoration: none;
 }
   
-#contenu a:hover {
+#contenu a:hover 
+{
 	text-decoration: underline;
 }
   
-#contenu a:active {
+#contenu a:active 
+{
 	text-decoration: underline;
+}
+
+#footer
+{
+	text-align: end;
+	color:#99BB22;
+	font-size: 0.9rem;
+	margin-right: 5px;
+	margin-bottom: 5px;
 }

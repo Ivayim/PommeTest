@@ -27,11 +27,17 @@ h1 a
 	background-image: url("/Ressources/Images/title.gif");
 	background-repeat: no-repeat;
 	width: 397px;
-	height: 67px;
+	height: 69px;
 }
 h1 a span
 {
-	text-align: right;
+	clip-path: inset(100%);
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
 }
 	
 pre

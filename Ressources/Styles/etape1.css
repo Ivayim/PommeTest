@@ -90,6 +90,8 @@ div#contenu
 	background-image: url("/Ressources/Images/bg_page.gif");
 	background-repeat: no-repeat;
 	background-position: left;
+	padding-right: 25px;
+	margin-left: 10px;
 }
 div#contenu h2, p
 {	
@@ -105,15 +107,23 @@ div#contenu h2
 	color:#99BB22;
 	background-image: url("/Ressources/Images/little_apple.gif");
 	background-position: left;
+	background-position-y:3px ;
 	background-repeat: no-repeat;
+	padding-bottom: 0px;
+	border-bottom; 0;
 }
 div#contenu h3
 {
-	padding-left: 30x;
+	padding-left: 5px;
 	line-height: 20px;
 	font-size: 1.1em;
 	border-bottom: 1px solid #9b2;
 	border-left: 2px solid #9b2;
 	color:#99BB22;
 	margin-left: 89px;
+}
+div#contenu p
+{
+	text-align: justify;
+	text-justify: inter-word;
 }

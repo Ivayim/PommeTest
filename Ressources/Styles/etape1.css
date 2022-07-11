@@ -43,7 +43,16 @@ h1 a span /* Cacher le texte du lien derrière l'image */
 	white-space: nowrap;
 	width: 1px;
 }
+nav
+{
+	display: flex;
+	align-content: space-around;
+}
 
+#menu ul
+{
+	margin: 0;
+}
 #menu li
 {
 	background-image: url("/Ressources/Images/bg_menu.gif");
@@ -66,4 +75,8 @@ div#contenu
 	background-image: url("/Ressources/Images/bg_page.gif");
 	background-repeat: no-repeat;
 	background-position: left;
+}
+div h2, p
+{	
+	margin-left: 69px;
 }

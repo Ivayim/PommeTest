@@ -95,15 +95,25 @@ div#contenu h2, p
 {	
 	margin-left: 69px;
 }
-div#contenu h2{
+div#contenu h2
+{
 	padding-left: 25px;
 	line-height: 25px;
 	font-size: 1.4em;
 	background: url(little_apple.gif) no-repeat left bottom;
-	color: #9b2;
 	border-bottom: 1px solid #9b2;
 	color:#99BB22;
 	background-image: url("/Ressources/Images/little_apple.gif");
 	background-position: left;
 	background-repeat: no-repeat;
+}
+div#contenu h3
+{
+	padding-left: 30x;
+	line-height: 20px;
+	font-size: 1.1em;
+	border-bottom: 1px solid #9b2;
+	border-left: 2px solid #9b2;
+	color:#99BB22;
+	margin-left: 89px;
 }

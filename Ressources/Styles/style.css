@@ -16,7 +16,7 @@ body
 h1#header
 {
 	height: 258px ;
-    background-image: url("../images/apple.jpg");
+    background-image: url("../Images/apple.jpg");
 	background-repeat: no-repeat;
 	background-position: left;
 	background-color:white;
